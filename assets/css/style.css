@@ -418,4 +418,32 @@ textarea:active {
    font-family: var(--content-font);
 }
 /* END CONTACT SECTION */
+
+/* * TASK SECTION */
+.section#task {
+   background-color: var(--dark);
+   color: var(--light);
+   overflow: scroll;
+}
+
+.section#task .header{
+   font-family: var(--header-font);
+   margin-bottom: 40px;
+}
+
+table {
+   width: 80%;
+   border-collapse: collapse;
+}
+
+table, thead, th, td {
+   text-align: center;
+   border: 2px solid var(--light);
+   padding: 10px 20px;
+}
+/* END TASK SECTION */
 /* SECTIONS END */
+
+::-webkit-scrollbar {
+   display: none;
+}
